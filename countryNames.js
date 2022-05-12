@@ -8,9 +8,9 @@ const getCountries = () => {
         const countries=xhr.response;
         for(let names of countries){
             console.log(names.name);
-            console.log(names.population);
-            console.log(names.region);
-            console.log(names.subregion);
+//             console.log(names.population);
+//             console.log(names.region);
+//             console.log(names.subregion);
         
         }
     };
